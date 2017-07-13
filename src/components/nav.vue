@@ -5,8 +5,8 @@
                 <slot name="logo"></slot>
                 <slot></slot>
                 <slot name="side-nav"></slot>
-				<slot name="tabs"></slot>
             </div>
+			<slot name="tabs"></slot>
         </nav>
     </div>
 </template>
