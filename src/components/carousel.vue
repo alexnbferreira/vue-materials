@@ -79,7 +79,7 @@
                     dist: this.dist,
                     shift: this.shift,
                     padding: this.padding,
-                    full_width: this.fullWidth
+                    fullWidth: this.full_width
                 }
             }
         },
