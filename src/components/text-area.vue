@@ -3,7 +3,6 @@
               :length="length"
               @input="$emit('input', $event.target.value)"
     >
-        <slot></slot>
     </textarea>
 </template>
 
