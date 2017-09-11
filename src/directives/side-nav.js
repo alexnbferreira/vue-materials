@@ -4,7 +4,10 @@ export default {
     bind (el, binding, vnode) {
         Load.call(vnode.context, () => {
             el.setAttribute('data-activates', binding.arg)
-            $(el).sideNav(binding.value || {})
+            $(el).sideNav(binding.value || {
+				menuWidth: "100%",
+				closeOnClick: true
+			})
         })
     }
 }
