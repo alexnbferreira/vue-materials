@@ -24,7 +24,11 @@
         methods: {
             init () {
                 if (this.format) $(this.$el).pickadate({format: this.format})
-                else $(this.$el).pickadate()
+                else $(this.$el).pickadate({
+					selectMonths: true, // Creates a dropdown to control month
+					selectYears: 15,
+					closeOnSelect: true
+				})
 
                 const picker = $(this.$el).pickadate('picker')
                 picker.set('select', this.value)
