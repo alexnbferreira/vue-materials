@@ -26,7 +26,7 @@
                 if (this.format) $(this.$el).pickadate({format: this.format})
                 else $(this.$el).pickadate({
 					selectMonths: true, // Creates a dropdown to control month
-					selectYears: 15,
+					selectYears: 99,
 					closeOnSelect: true
 				})
 
