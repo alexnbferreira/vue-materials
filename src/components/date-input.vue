@@ -27,8 +27,7 @@
                 else $(this.$el).pickadate({
 					selectMonths: true, // Creates a dropdown to control month
 					selectYears: 99,
-					closeOnSelect: true,
-					max: moment().year(moment().year() - 18).toDate()
+					closeOnSelect: true
 				})
 
                 const picker = $(this.$el).pickadate('picker')
