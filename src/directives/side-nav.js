@@ -7,7 +7,8 @@ export default {
             $(el).sideNav(binding.value || {
 				menuWidth: "100%",
 				closeOnClick: true,
-				edge:'right'
+				edge:'right',
+				draggable: false
 			})
         })
     }
