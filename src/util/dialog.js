@@ -1,4 +1,4 @@
-export default function Dialog(message, duration = 4000, rounded, cb) {
+export default function Dialog(message, duration = 2000, rounded, cb) {
     if (typeof rounded === 'function') {
         cb = rounded
         rounded = ''
