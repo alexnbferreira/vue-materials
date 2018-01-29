@@ -4,6 +4,7 @@
                :min="min"
                :max="max"
                :value="value"
+			   :step="5"
                ref="range"
         >
     </p>
